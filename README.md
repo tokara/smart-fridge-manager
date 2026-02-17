@@ -1,3 +1,73 @@
+# 🍎 Smart Fridge Manager
+
+A modern web app to track fridge and freezer inventory, 
+reduce food waste and...save money!!.
+
+## ✨ Features
+- ✅ Add/remove fridge and freezer items
+- ✅ Expiry date tracking with colour-coded warnings
+- ✅ Persistent storage (survives browser refresh)
+- 🔜 Barcode scanning
+- 🔜 Recipe suggestions
+- 🔜 Shopping list generation
+
+## 🛠️ Tech Stack
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **localStorage** for data persistence
+
+## 🚀 Getting Started
+\`\`\`bash
+npm install
+npm run dev
+\`\`\`
+Open [http://localhost:3000](http://localhost:3000)
+
+## 👨‍💻 About
+Built as part of my frontend development re-learning journey.
+With this app, we are actually skiipping pure HTM/CSS and diving striaght into Next.js + React. JSX is utilized here (basically, Javascript that looks like HTML...interesting!!). 
+Tailwind CSS is also employed here as part of the learning process. (Tailwind-->utility classes instead of separate CSS files).
+This app demonstrates React hooks, TypeScript interfaces, component 
+architecture, accessibility best practices and Next.js App Router.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------Default notes-----
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
