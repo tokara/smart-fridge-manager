@@ -20,7 +20,7 @@ export function useFridge() {
       }))
       setItems(itemsWithDates)
     }
-  }, []) // Empty array = run only once on mount
+  }, []) // Empty array = run only once on mount---will come back to this
 
   // Save to localStorage whenever items change
   useEffect(() => {
@@ -37,15 +37,26 @@ export function useFridge() {
     setItems(prev => [...prev, newItem]) // Add to existing items
   }
 
+
+   // edit item function to edit existing item
+const  editItem = (id: string, updates: Omit<FridgeItem, 'id' | 'addedDate'>) => {
+  setItems(prev => prev.map(item => item.id === id ? { ...item, ...updates  } : item 
+  )) 
+  
+}
+
+
   // Function to delete an item
   const deleteItem = (id: string) => {
     setItems(prev => prev.filter(item => item.id !== id))
   }
 
+
   // Return items and functions so components can use them
   return {
     items,
     addItem,
-    deleteItem
+    deleteItem,
+    editItem
   }
 }
