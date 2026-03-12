@@ -78,8 +78,8 @@ export default function AddItemForm({ onAddItem }: AddItemFormProps) {
               type="number"
               value={quantity}
               onChange={(e) => setQuantity(Number(e.target.value))}
-              min="0.1"
-              step="0.1"
+              min="0.5" // Allow half units for things like 0.5 kg
+              step="1" // Only allow whole numbers for pieces, but can be overridden for other units
               className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <select

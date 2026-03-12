@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## 👨‍💻 About
 Built as part of my frontend development re-learning journey.
-With this app, we are actually skiipping pure HTM/CSS and diving striaght into Next.js + React. JSX is utilized here (basically, Javascript that looks like HTML...interesting!!). 
+With this app, we are actually skipping pure HTM/CSS (which is a new approach for me) and diving striaght into Next.js + React. JSX is utilized here (basically, Javascript that looks like HTML...interesting!!). 
 Tailwind CSS is also employed here as part of the learning process. (Tailwind-->utility classes instead of separate CSS files).
 This app demonstrates React hooks, TypeScript interfaces, component 
 architecture, accessibility best practices and Next.js App Router.
